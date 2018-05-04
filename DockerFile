@@ -1,0 +1,6 @@
+FROM landorphan/netfx3.5-4.7
+RUN md C:\\Install\\vjredist
+COPY ./vjredist.exe C:\\Install\\vjredist
+RUN C:\\Install\\vjredist\\vjredist.exe /C /T:C:\\Install\\vjredist
+RUN C:\\Install\\vjredist\\install.exe /q /l C:\\Install\\vjredist\\install.log
+# RUN rmdir /Q /S C:\\Install
