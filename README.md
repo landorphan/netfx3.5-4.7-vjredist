@@ -8,6 +8,12 @@ Provides a Visual JSharp 2.0 install riding on top of the landorphan/netfx3.5-4.
 
 
 
+**<u>This Project Currently is not Finished and currently does not work!</u>**
+
+
+
+
+
 Use this image as a base for new images created
 
 
